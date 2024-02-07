@@ -1,0 +1,16 @@
+body{
+    text-align: center;
+}
+table{
+    /* border: 1px solid black; */
+    border-collapse: collapse;
+    margin: auto;
+}
+tr, td{
+    border: 1px solid;
+    padding: 5px;
+}
+.cell {
+    width: 40px;
+    height: 40px;
+}
