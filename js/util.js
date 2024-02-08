@@ -2,11 +2,12 @@
 
 var gCells = []
 
-function setRandMains(board,sizeAndMines) {
+function setRandMains(board,sizeAndMines,currI,currJ) {
     var maineCount = 0
     while(maineCount !== sizeAndMines.MINES){
         var i =getRandomInt(0, sizeAndMines.SIZE)
         var j =getRandomInt(0, sizeAndMines.SIZE)
+        if(board[currI][currJ]===board[i][j])continue
         if(!board[i][j].isMine){
             board[i][j].isMine = true
             maineCount++

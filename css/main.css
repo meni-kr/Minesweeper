@@ -9,7 +9,8 @@ table{
 }
 td{
     font-size: large;
-    color: cadetblue;
+    background-color: aqua;
+    
     border: 1px solid white;
     padding: 5px;
     width: 40px;
@@ -23,13 +24,17 @@ td.hidden:hover{
 
 
 .cell{
-   color: white;
+   color: rgb(34, 58, 59);
     
 }
 
 .hidden{
-    
+    background-color: black;
     color: rgba(240, 248, 255, 0);
+}
+
+.flag{
+    background-color: black;
 }
 .fotter{
     color:brown;
