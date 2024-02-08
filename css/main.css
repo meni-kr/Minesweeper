@@ -8,11 +8,20 @@ table{
     margin:auto;
 }
 td{
+    font-size: large;
+    color: cadetblue;
     border: 1px solid white;
     padding: 5px;
     width: 40px;
     height: 40px;
+    /* background-color: ; */
+    
 }
+td.hidden:hover{
+    background-color: rgb(58, 89, 79);
+}
+
+
 .cell{
    color: white;
     
