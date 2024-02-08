@@ -36,6 +36,19 @@ td.hidden:hover{
 .flag{
     background-color: black;
 }
+
+.timer{
+    margin: 10px;
+}
+.lives{
+    margin: 10px;
+}
+
+.smili{
+    background-color: rgb(129, 79, 79);
+    font-size: 50px;
+}
+
 .fotter{
     color:brown;
 }
